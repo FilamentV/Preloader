@@ -9,7 +9,7 @@ trait GeneratesScript
      *
      * @var float
      */
-    protected $memory = self::MEMORY_LIMIT;
+    protected $memory = 32;
 
     /**
      * If it should use `require_once` to preload files.
